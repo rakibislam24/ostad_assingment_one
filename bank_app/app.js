@@ -41,5 +41,5 @@ account1.displayAccountInfo();
 const account2 = new BankAccount(1922872056, "Shahidul Islam", 300);
 account2.deposit(500);
 account2.withdraw(200);
-account1.getBalance();
+account2.getBalance();
 account2.displayAccountInfo();
