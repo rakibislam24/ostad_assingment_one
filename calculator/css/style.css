@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/bg4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Archivo", sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap')
+}  
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: -40px;
+        padding-bottom: 10px;
+    }   
+    .row{
+        padding: 40px 30px;
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .form-control:focus, .btn:focus{
+        box-shadow: none;
+    }
+    input, select{
+        border: 2px solid;
+        border-image: linear-gradient(45deg, rgb(2, 0, 143), rgb(66, 250, 204)) 1 !important;
+    }
+    input[type=text]:focus, select:focus{
+        border: 2px solid;
+        border-image: linear-gradient(45deg, rgb(2, 0, 143), rgb(66, 250, 204)) 1 !important;
+        box-shadow: none;
+    }
+    label{
+        font-size: 16px;
+        font-weight: 600;
+        color: #1ABC9C;
+    }
+    .resultDiv{
+        margin-top: 20px !important;
+    }
+    #showResult{
+        border: 1px solid;
+        border-image: linear-gradient(45deg, rgb(2, 0, 143), rgb(66, 250, 204)) 1;
+        padding: 10px 10px;
+        width: 100%;
+        text-align: left;
+    }
+    .btn{
+        margin-top: 20px !important;
+        padding: 10px 40px;
+        background-image: linear-gradient(to right, #5C258D 0%, #4389A2 51%, #5C258D 100%);
+        transition: .5s;
+        font-weight: 600;
+        border-radius: 2px;
+        border: none;
+    }
