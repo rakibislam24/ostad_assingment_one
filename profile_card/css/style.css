@@ -1,0 +1,112 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/bg5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Archivo", sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap')
+}  
+  .container_div {
+    text-align: center;
+  }  
+  .profile_card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    width: 400px;
+    height: auto;
+  }
+  .top_part{
+    padding: 40px 40px 20px;
+    border-radius: 10px 10px 0 0;
+    background-color: #e07b96;
+  }
+  .profile_pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #00d2ff 0%, #928DAB 71%, #00d2ff 100%);
+    border: 5px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 16px, rgba(0, 0, 0, 0.22) 0px 9px 12px;
+  }
+  .profile_pic:hover {
+    background: linear-gradient(to right, #928DAB 0%, #00d2ff 71%, #928DAB 100%);
+    cursor: pointer;
+  }
+  h1 {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: white;
+  }  
+  p {
+    margin-bottom: 10px;
+    font-size: 16px !important;
+    color: white;
+  }
+  .ocupassion {
+    font-size: 18px !important;
+    font-weight: 600;
+    color: #242E3C;
+    margin-top: 2px;
+
+  }
+  .email, .phone{
+    margin-top: 0px;
+  }
+  .button_span{
+    display: block;
+    margin-top: 50px;
+  }
+  .button_span .btn{
+    padding: 10px 20px;
+    border: 1px solid grey;
+    margin: 5px 5px;
+    text-decoration: none;
+    color: white;  
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 8px;
+  }        
+  .btn_about {
+    background-image: linear-gradient(to right, #00d2ff 0%, #928DAB 51%, #00d2ff 100%);
+  }
+  .btn_contact {
+    background-image: linear-gradient(to right, #ff00cc 0%, #333399 51%, #ff00cc 100%);
+  }
+  .btn_about:hover, .btn_contact:hover {
+    background-position: right center;
+  }
+  .bottom_part{
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: white;
+    position: relative;
+  }
+  .icon_span a{
+    color: black;
+    font-size: 24px;
+    padding: 10px 15px;
+    transition: 0.2s ease-in-out;
+  }
+  .icon_span .fa-facebook-f:hover{
+    color: #0866FF;
+  }
+  .icon_span .fa-twitter:hover{
+    color: #1D9BF0;
+  }
+  .icon_span .fa-github:hover{
+    color: #7040C9;
+  }
+  .icon_span .fa-youtube:hover{
+    color: #FF0000;
+  }
+  .description{
+    color: #222E3A;
+  }
